@@ -1,0 +1,7 @@
+D:\ProjetosC#\RevendaCarros\RevendaCarros\bin\Debug\RevendaCarros.exe.config
+D:\ProjetosC#\RevendaCarros\RevendaCarros\bin\Debug\RevendaCarros.exe
+D:\ProjetosC#\RevendaCarros\RevendaCarros\bin\Debug\RevendaCarros.pdb
+D:\ProjetosC#\RevendaCarros\RevendaCarros\obj\Debug\RevendaCarros.csprojAssemblyReference.cache
+D:\ProjetosC#\RevendaCarros\RevendaCarros\obj\Debug\RevendaCarros.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RevendaCarros\RevendaCarros\obj\Debug\RevendaCarros.exe
+D:\ProjetosC#\RevendaCarros\RevendaCarros\obj\Debug\RevendaCarros.pdb
