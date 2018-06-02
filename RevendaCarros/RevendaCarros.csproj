@@ -45,6 +45,8 @@
     <Compile Include="dominio\Acessorio.cs" />
     <Compile Include="dominio\Carro.cs" />
     <Compile Include="dominio\Marca.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="ModelException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

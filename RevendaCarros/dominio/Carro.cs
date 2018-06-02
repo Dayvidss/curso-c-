@@ -24,17 +24,24 @@ namespace RevendaCarros.dominio {
         }
 
         public double valorTotal() {
-            double total = 0.0;
+            double soma = precoBasico;
             for(int i = 0; i < acessorio.Count; i++) {
-                total = total + acessorio[i].preco;
+                soma = soma + acessorio[i].preco;
             }
-            return total;
+            return soma;
         }
 
         public override string ToString() {
-            return codigo + ", " + modelo + ", Ano: " + anoDeFabricacao 
+            string s = codigo + ", " + modelo + ", Ano: " + anoDeFabricacao 
                 + ", Preço Básico: R$ " + precoBasico.ToString("F2", CultureInfo.InvariantCulture) 
                 + ", Preço total: R$" + valorTotal().ToString("F2", CultureInfo.InvariantCulture);
+            if(acessorio.Count > 0) {
+                s = s + "\nAcessórios:\n";
+                for (int i = 0; i < acessorio.Count; i++) {
+                    s = s + acessorio[i];
+                }
+            }
+            return s;
         }
 
         public int CompareTo(object obj) {
